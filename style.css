@@ -5,7 +5,11 @@
   --muted: #9a9a9a;
   --placeholder: #ececec;
   --gap: 1.25rem;
-  --font: "Helvetica Neue", Helvetica, Arial, system-ui, sans-serif;
+  --  font-family: "Bitcount Single", system-ui;
+
+  --font: "Helvetica Neue", Helvetica, Arial, system-ui, sans-seri--f;
+
+  
 }
 
 *, *::before, *::after { box-sizing: border-box; }
