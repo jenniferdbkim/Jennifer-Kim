@@ -67,3 +67,10 @@ p { margin: 0; }
   }
   .index a:hover, .index a.is-active { color: var(--ink); }
 }
+
+.index a {
+  display: block;
+  padding-left: 1.4em;
+  text-indent: -1.4em;
+  /* keep your existing color, font-size, line-height etc. */
+}
