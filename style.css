@@ -54,6 +54,9 @@ p { margin: 0; }
     order: 1; grid-column: 2; grid-row: 1;
     position: sticky; top: 0; height: 100vh; height: 100dvh;
     padding: var(--gap);
+    index ol { list-style: none; margin: 0; padding: 0; counter-reset: work; }
+.index li { counter-increment: work; }
+.index a::before { content: counter(work, decimal-leading-zero); }
   }
   .head, .foot { padding: 0; }
   .detail { padding: 0; }
