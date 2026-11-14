@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<title>Painting | Your Name</title>
+<meta name="description" content="Painting by Your Name.">
+</head>
+<body>
+<div class="layout">
+<main class="main">
+  <h1 class="vh">Painting</h1>
+  <div class="grid">
+    <figure class="item">
+      <button class="thumb" type="button" aria-label="View Painting 01 larger">
+        <!-- Add your image here: <img src="images/painting-01.jpg" alt="Describe the artwork" loading="lazy"> -->
+      </button>
+      <figcaption><span class="title">Painting title 01</span><span class="desc">Medium, size, year.</span></figcaption>
+    </figure>
+    <figure class="item">
+      <button class="thumb" type="button" aria-label="View Painting 02 larger">
+        <!-- Add your image here: <img src="images/painting-02.jpg" alt="Describe the artwork" loading="lazy"> -->
+      </button>
+      <figcaption><span class="title">Painting title 02</span><span class="desc">Medium, size, year.</span></figcaption>
+    </figure>
+    <figure class="item">
+      <button class="thumb" type="button" aria-label="View Painting 03 larger">
+        <!-- Add your image here: <img src="images/painting-03.jpg" alt="Describe the artwork" loading="lazy"> -->
+      </button>
+      <figcaption><span class="title">Painting title 03</span><span class="desc">Medium, size, year.</span></figcaption>
+    </figure>
+    <figure class="item">
+      <button class="thumb" type="button" aria-label="View Painting 04 larger">
+        <!-- Add your image here: <img src="images/painting-04.jpg" alt="Describe the artwork" loading="lazy"> -->
+      </button>
+      <figcaption><span class="title">Painting title 04</span><span class="desc">Medium, size, year.</span></figcaption>
+    </figure>
+    <figure class="item">
+      <button class="thumb" type="button" aria-label="View Painting 05 larger">
+        <!-- Add your image here: <img src="images/painting-05.jpg" alt="Describe the artwork" loading="lazy"> -->
+      </button>
+      <figcaption><span class="title">Painting title 05</span><span class="desc">Medium, size, year.</span></figcaption>
+    </figure>
+    <figure class="item">
+      <button class="thumb" type="button" aria-label="View Painting 06 larger">
+        <!-- Add your image here: <img src="images/painting-06.jpg" alt="Describe the artwork" loading="lazy"> -->
+      </button>
+      <figcaption><span class="title">Painting title 06</span><span class="desc">Medium, size, year.</span></figcaption>
+    </figure>
+  </div>
+</main>
+  <div class="panel">
+    <header class="head">
+      <a class="name" href="index.html">Your Name</a>
+      <nav class="nav" aria-label="Main">
+        <a href="index.html" aria-current="page">Painting</a>
+        <a href="illustration.html">Illustration</a>
+        <a href="design.html">Design</a>
+        <a href="tattoo.html">Tattoo</a>
+        <a href="about.html" class="sub">About</a>
+      </nav>
+    </header>
+    <footer class="foot">
+      <nav class="socials" aria-label="Social links">
+        <a href="https://instagram.com/yourhandle">Instagram</a>
+        <a href="mailto:you@example.com">Email</a>
+        <a href="https://www.are.na/your-name">Are.na</a>
+      </nav>
+      <p class="copy">&copy; 2026 Your Name</p>
+    </footer>
+  </div>
+</div>
+<dialog class="lightbox" id="lightbox" aria-label="Artwork viewer">
+  <div class="lb-bar"><span class="lb-count"></span><button class="lb-close" type="button">Close</button></div>
+  <div class="lb-stage">
+    <button class="lb-prev" type="button" aria-label="Previous artwork">&larr;</button>
+    <img class="lb-img" alt="">
+    <div class="lb-ph"></div>
+    <button class="lb-next" type="button" aria-label="Next artwork">&rarr;</button>
+  </div>
+  <div class="lb-info"><p class="lb-title"></p><p class="lb-desc"></p></div>
+</dialog>
+<script src="script.js" defer></script>
+</body>
+</html>
