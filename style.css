@@ -5,7 +5,7 @@
   --muted: #8f8f8f;
   --placeholder: #ececec;
   --accent: #111;                         /* colour of the current page in the menu */
-  --gap: 1.25rem;
+  --gap: 2.25rem;
   --panel-w: clamp(19rem, 27vw, 27rem);   /* width of the right-hand bar */
   --font: "Inter Tight", "Helvetica Neue", Arial, sans-serif;
   --head-weight: 559;                     /* weight for headers */
@@ -27,7 +27,7 @@ p { margin: 0; }
 .main { order: 2; padding: 0 var(--gap) var(--gap); }
 .foot { order: 3; padding: var(--gap); display: grid; gap: 0.5rem; }
 
-.name { font-size: 1.3rem; line-height: 1; font-weight: var(--head-weight); }
+.name { font-size: 2.0rem; line-height: 1; font-weight: var(--head-weight); }
 .nav { display: flex; flex-direction: column; align-items: flex-start; gap: 0.55rem; }
 .nav a { color: var(--muted); font-size: 1.15rem; white-space: nowrap; transition: color 0.15s; }
 .nav a.sub { margin-top: 1.2rem; font-size: 0.95rem; }            /* About sits apart, smaller */
